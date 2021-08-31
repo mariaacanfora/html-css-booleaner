@@ -6,7 +6,6 @@ header{
     background-color: lightskyblue;
     background-image: url(../img/pattern.png);
     background-size: 10%;
-    align-items: baseline;
 }
 
 .logo{
@@ -31,4 +30,42 @@ h1{
 .didascalia-foto{
     color: lightslategray;
     font-size: smaller;
+}
+
+.highlighted{
+    background-color: yellow;
+}
+
+.head-row{
+    background-color: rgb(58, 183, 255);
+}
+
+.body-row-dispari{
+    background-color: rgba(58, 183, 255,0.2);
+}
+
+/************************************************************/
+/* FOOTER */
+/************************************************************/
+h3{
+    color: lightslategray;
+}
+
+#pubblicità1{
+    height: 150px;
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+}
+#pubblicità2{
+    height: 150px;
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
 }
